@@ -13,3 +13,28 @@ computadores criam tabelas que associam valores númericos a caracteres de texto
 Padrão Unicode estabelece o UTF-8 que possui 1.112.064 caracteres válidos – os primeiros 128 são os mesmo do ASC II
 
 Tudo que é guardado no computador é considerado memória, tendo uma hierarquia de memória. 
+
+Arquivos
+O que é um arquivo? É um mecanismo fundamental de persistência de dados.
+Quando a execução de um programa termina, todos os dados que ele manipulou e ficaram na memória são perdidos.
+Quando queremos armazenar os dados para uso futuro, temos que trabalhar com mecanismos de persistência de dados.
+Arquivos são o mecanismo mais elementar e também o mais tradicional de persistência de dados em programação, também pode-se dizer que o arquivo é o conjunto de dados a que se dá nome. 
+
+Arquivos x Binários
+Temos algumas implicações, como a classificação. Existe um tipo de arquivo, chamado arquivo de texto, em que as informações são armazenadas como caracteres. Podem ser construídos e lidos por editores de texto. O conteúdo desse arquivo é exclusivamente texto, por exemplo, é o bloco de textos. O word não é um exemplo disso. A troca de informação é muito fácil, não importa o computador do outro lado, eis que todos leêm arquivos de texto.  
+Todo arquivo é binário, logo, as informações são armazenadas como sequências de bytes construídas de acordo com as especificações do programa que fez a gravação do arquivo. Utilizar o conteúdo de um arquivo binário exige conhecer as especificações da sua construção.
+Um programa para usar um arquivo que não de texto precisa conhecer a regra de formação do arquivo. 
+
+Sistema operacional
+Software (parte abstrata) x Hardware (parte concreta - peças físicas do computador)
+Um sistema operacional é o software essencial que gerencia o hardware de um computador, permitindo a execução de programas e aplicativos. Outra definição é "um programa ou um conjunto de programas cuja função é gerenciar os recursos do sistema, fornecendo uma interface entre o computador e o usuário ou utilizador".
+Camada de abstração é o sistema operacional, então o usuário não lida direto com o hardware - o usuário ignora as complexidades do hardware e usa direto o computador. 
+Tem um tipo especial de sistema que é a comunicação entre o software e o hardware, é o driver - que ensina ao sistema operacional como o hardware funciona, logo, o sistema operacional utiliza o driver para padronizar a utilização do hardware com comandos e métodos diferentes. 
+Sistema (programa) que permite que outros programas usem o computador, sendo uma camada de abstração sobre o hardware, que padroniza utilização de hardware com comandos e métodos diferentes, através do uso de drivers.
+
+Nuvem
+É um conjunto de computadores, em que se usa uma camada de abstração, para que sejam vistos como um computador só. 
+Camada de abstração sobre conjunto de hardaware;
+- Várias arquiteturas possíveis;
+- Oferta de serviços (SaS);
+- Oferta de máquinas virtuais.
