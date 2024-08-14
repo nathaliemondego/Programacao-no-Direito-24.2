@@ -1,10 +1,15 @@
 Falamos de dados, banco de dados, informação, inteligência artificial. 
 
-Dado é uma informação sem contexto, seja relativo a coisa, pessoa, o que for. Em resumo, dados são valores atribuídos a algo. Estes valores não precisam ser necessariamente números. Eles também podem ser, por exemplo, conceitos ou posições em um mapa. Dados podem ser medidos ou mensurados por meio de instrumentos, mas também podem ser atribuídos de forma arbitrária. 
-Em resumo, dados são valores atribuídos a algo. Estes valores não precisam ser necessariamente números. Eles também podem ser, por exemplo, conceitos ou posições em um mapa. Dados podem ser medidos ou mensurados por meio de instrumentos, mas também podem ser atribuídos de forma arbitrária. 
-Exemplos? Existem vários. O registro do clima, as notas de uma turma na escola, métricas de vendas, a quantidade e duração das ligações feitas por um celular, a trajetória de um avião, as relações de amizade de uma pessoa nas redes sociais, etc. A lista é interminável e, cada vez mais, diversos aspectos de nosso cotidiano são transformados em dados.
+Dado é uma informação sem contexto, seja relativo a coisa, pessoa, o que for. Em resumo, dados são valores atribuídos a algo. Estes valores não precisam ser necessariamente números. Eles também podem ser, por exemplo, conceitos ou posições em um mapa. Dados podem ser medidos ou mensurados por meio de instrumentos, mas também podem ser atribuídos de forma arbitrária. Em resumo, dados são valores atribuídos a algo. Estes valores não precisam ser necessariamente números. Eles também podem ser, por exemplo, conceitos ou posições em um mapa. Dados podem ser medidos ou mensurados por meio de instrumentos, mas também podem ser atribuídos de forma arbitrária. Por exemplo, o registro do clima, as notas de uma turma na escola, métricas de vendas, a quantidade e duração das ligações feitas por um celular, a trajetória de um avião, as relações de amizade de uma pessoa nas redes sociais, etc. A lista é interminável e, cada vez mais, diversos aspectos de nosso cotidiano são transformados em dados.
 Vale também lembrar que dados são construções humanas. Usamos dados para lidar com uma realidade que é complexa. Ou seja, eles não são representações objetivas ou infalíveis desta realidade. Pelo contrário, os dados podem estar sujeitos a diversos tipos de erros ou vieses, desde a coleta, passando pelo seu tratamento, análise e até a visualização dos dados em gráficos ou mapas. Em todas estas etapas, é possível que erros afetem a forma como uma realidade complexa é representada por meio de dados. Disponível em: https://escoladedados.org/tutoriais/o-que-sao-dados/
+O conhecimento, quando sistematizado, se torna inteligência. O banco de dados é o conjunto de dados relacionados entre si, organizados dentro de um programa. 
 
-O conhecimento, quando sistematizado, se torna inteligência.
+Base 2 é um sistema de numeração posicional, usado por ser mais fácil na hora de construir computadores, ou seja, simplifica muito. Explicação legal do sistema binário e por quê é usado: https://www.manualdocodigo.com.br/binario/#:~:text=A%20resposta%20%C3%A9%20que%20simplifica,bin%C3%A1rio%20%C3%A9%20o%20mais%20simples.. 
 
-O banco de dados é o conjunto de dados relacionados entre si, organizados dentro de um programa. 
+Indicação do prof: https://en.wikipedia.org/wiki/Binary_number
+
+computadores criam tabelas que associam valores númericos a caracteres de texto. 
+
+Padrão Unicode estabelece o UTF-8 que possui 1.112.064 caracteres válidos – os primeiros 128 são os mesmo do ASC II
+
+Tudo que é guardado no computador é considerado memória, tendo uma hierarquia de memória. 
