@@ -2,3 +2,31 @@ Utilizando a linguagem de programação Python, implemente um ou mais códigos d
 – Uma estrutura de repetição
 – Uma estrutura de tomada de decisão
 Envie seu código e o comprovante de execução para seu repositório no github
+
+Códigos realizados para estrutura de repetição: 
+
+for i in range(5):
+    print(i)
+Execução: https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Estrutura%20de%20repeti%C3%A7%C3%A3o%20-%20for%20-%20python.png
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+Execução: https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Estrutura%20de%20repeti%C3%A7%C3%A3o%20-%20while%20-%20python.png
+
+Códigos realizados para estrutura de tomada de decisão: 
+
+x = 10
+if x > 5:
+    print("x é maior que 5")
+Execução: https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Estrutura%20de%20tomada%20de%20decis%C3%A3o%20-%20if%20-%20python.png
+
+x = 10
+if x > 10:
+    print("x é maior que 10")
+elif x == 10:
+    print("x é igual a 10")
+Execução: https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Estrutura%20de%20tomada%20de%20decis%C3%A3o%20-%20elif%20-%20python.png
+
+Comentários: depois de entender o que é cada estrutura, é bem simples de fazer. Achei o python bem intuitivo. 
