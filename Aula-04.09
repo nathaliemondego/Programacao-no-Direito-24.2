@@ -1,0 +1,55 @@
+Aula de hoje em códigos: https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Aula%20-%2004.09.png
+
+idade = 25
+if idade < 18:
+ print("Você é menor de idade!")
+elif idade >= 18 and idade < 60:
+ print("Você é adulto!")
+else:
+ print("Você é um idoso!")
+ 
+print ('terminou')
+
+idade = 22
+tem_carteira = True
+if idade >= 18 and tem_carteira:
+ print("Você pode dirigir!")
+else:
+ print("Você não pode dirigir!")
+ 
+print ('terminou')
+
+idade = 22
+tem_carteira = False
+if idade >= 18 and tem_carteira:
+ print("Você pode dirigir!")
+else:
+ print("Você não pode dirigir!")
+ 
+print ('terminou')
+
+idade = 16
+tem_autorizacao = True
+if idade >= 18 or tem_autorizacao:
+ print("Você pode entrar na festa!")
+else:
+ print("Você não pode entrar na festa!")
+ 
+print ('terminou')
+ 
+idade = 14
+if not idade >= 18:
+ print("Você é menor de idade!")
+ 
+print ('terminou')
+
+Laço ou loop: no Python é o for e o while. 
+O laço while repete eternamente, enquanto o for repete os elementos da sequência. 
+
+String = corrente/cadeia de caracteres; é o texto escrito entre aspas.
+
+Algoritmos: é uma sequência de instruções para resolver um problema. 
+
+Algoritmos de ordenação.
+
+Explicação de Bubble Sort: https://medium.com/rafaeltardivo/bubble-sort-passo-a-passo-67bb5e11677c
