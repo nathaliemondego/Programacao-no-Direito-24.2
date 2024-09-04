@@ -29,13 +29,13 @@ Código para extrair vogais:
 
 def extrair_vogais(texto):
 
-    vogais = "aeiouAEIOU"
+    vogais = "aáeêiouAEIOU"
 
     resultado = [char for char in texto if char in vogais]
     return ''.join(resultado)
 
 
-texto = "Olá, mundo! Como você está?"
+texto = "Olá, mundo! Como você está"
 print("Texto original:", texto)
 vogais = extrair_vogais(texto)
 print("Vogais extraídas:", vogais)
