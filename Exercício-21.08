@@ -8,4 +8,40 @@ Já a C++, apesar de ter o C, é mais ampla, é um super conjunto de C.
 Em suma, as principais diferenças se referem ao nível de abstração, eis que a Python é de alta abstração, fácil de aprender e usar, código interpretado, enquanto a Java é de abstração média, código compilado em bytecode, executado na JVM, o que proporciona portabilidade, e a C é de baixo nível de abstração, código compilado diretamente para código de máquina, oferecendo controle direto sobre o hardware; ao paradigma de programação, uma vez que a Pyhton suporta múltiplos paradigmas (orientado a objetos, procedural, funcional), a Java é primariamente orientada a objetos, e a C é procedural, com suporte limitado para conceitos orientados a objetos; ao gerenciamento de memória, tendo a Pyhton e Java gerenciamento automático de memória (coleta de lixo) e a C tem gerenciamento manual de memória, com uso de ponteiros e alocação/desalocação de memória; e, por fim, à portabilidade, sendo a Pyton portável através do interpretador Python, mas pode variar entre ambientes, a Java altamente portável devido à JVM, que permite que o bytecode Java seja executado em qualquer plataforma que tenha uma JVM, e a C a menos portável, pois o código compilado é específico para a plataforma em que foi compilado.
 Essas diferenças fundamentais refletem as especialidades de cada linguagem. Python é ideal para desenvolvimento rápido e flexível com uma sintaxe acessível, Java é ótimo para aplicações portáveis e escaláveis que exigem um ambiente de execução consistente, e C é a escolha preferida para situações onde o desempenho e o controle sobre o hardware são cruciais.
 
-Para criar os códigos, utilizei tutorial do LeetCode que foi um sistema de programação que achei na internet e foi bem interessante, mas difícil, pois percebi o quão grande e complexo o mundo da programação é.
+Para criar os códigos, utilizei tutorial do LeetCode que foi um sistema de programação que achei na internet e foi bem interessante, consegui ver o quão grande e complexo o mundo da programação é.
+
+Executei os códigos utilizando o programiz.
+
+Python:
+print("Olá, Mundo!")
+
+https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Exerc%C3%ADcio%20-%20Python%20-%2021.08.png
+
+Java:
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Oie, tudo bem?");
+    }
+}
+
+https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Exerc%C3%ADcio%20-%20Java%20-%2021.08.png
+
+C:
+int main() {
+   
+    printf("Meu nome é Nathalie");
+
+    return 0;
+}
+
+https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Exerc%C3%ADcio%20-%20C%20-%2021.08.png
+
+C++:
+#include <iostream>
+
+int main() {
+    std::cout << "Olá, Mundo!" << std::endl;
+    return 0;
+}
+
+https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Exerc%C3%ADcio%20-%20C%2B%2B%20-%2021.08.png
