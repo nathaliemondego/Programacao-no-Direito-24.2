@@ -1,0 +1,90 @@
+Exercícios-11.09
+
+1)Crie uma função que imprima as informações de três parâmetros: nome, idade, e cidade, de maneira formatada. Use os argumentos sep e end da função print( ) para organizar a saída.
+Exemplo Saída:
+Nome: Alice - Idade: 25 - Cidade: São Paulo!
+
+print("Nome: Nathalie", "Sobrenome: Mondego", "Cidade: Rio de Janeiro\n", sep="; ")
+
+print('terminou\n')
+
+def imprimir_informacoes(nome, idade, cidade):
+    print(f"Nome: {nome}", end=" - ")
+    print(f"Idade: {idade}", end=" - ")
+    print(f"Cidade: {cidade}!")
+    
+imprimir_informacoes("Nathalie", 25, "Rio de Janeiro")
+
+Execução: https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Fun%C3%A7%C3%A3o%20-%20nome%2Cidade%2Ccidade%20-%2011.09.png
+
+2)Escreva uma função que peça ao usuário dois números e a operação desejada ('+', '-', '*' ou '/'). Sua função deve calcular e imprimir o resultado da operação especificada.
+Obs.: se não colocar o calcular_soma() ou calcular_subtracao NÃO FUNCIONA. Além disso, o python não entende ç e acentos, logo, não pode ser subtração, mas sim subtracao. 
+
+def calcular_soma():
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    resultado = num1 + num2
+    print("Resultado:", resultado)
+
+calcular_soma()
+
+Execução:https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Fun%C3%A7%C3%A3o%20-%20soma%20-%2011.09.png
+https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Fun%C3%A7%C3%A3o%20-%20soma%202%20-%2011.09.png
+
+def calcular_subtracao():
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    resultado = num1 - num2
+    print("Resultado:", resultado)
+
+calcular_subtracao()
+
+Execução: https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Fun%C3%A7%C3%A3o%20-%20subtra%C3%A7%C3%A3o%20-%2011.09.png
+
+3)Crie uma função que peça ao usuário para digitar itens de uma lista de compras, separados por vírgula. Armazene esses itens em uma lista e, ao final, imprima todos os itens em linhas separadas usando um laço.
+Exemplo de Entrada:
+Digite os itens da lista de compras: leite, ovos, pão, manteiga
+Exemplo de Saída:
+Item 1: leite
+Item 2: ovos
+Item 3: pão
+Item 4: manteiga
+
+def listar_compras():
+    itens = input("Digite os itens da lista de compras (separados por vírgula): ")
+    lista = [item.strip() for item in itens.split(',')]
+    for i, item in enumerate(lista, start=1):
+        print(f"Item {i}: {item}")
+
+listar_compras()
+
+Execução: https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Fun%C3%A7%C3%A3o%20-%20LISTA%20-%2011.09.png
+
+4)Faça uma função que solicite ao usuário a temperatura em graus Celsius, converta-a para Fahrenheit e imprima o resultado. A fórmula de conversão é: (Celsius * 9/5) + 32.
+
+def converter_celsius_para_fahrenheit():
+    celsius = float(input("Digite a temperatura em graus Celsius: "))
+    fahrenheit = (celsius * 9/5) + 32
+    print(f"A temperatura em Fahrenheit é: {fahrenheit}")
+
+converter_celsius_para_fahrenheit()
+
+Execução: https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Fun%C3%A7%C3%A3o%20-%20temperatura%20-%2011.09.png
+
+5)Escreva uma função que continue a pedir ao usuário para digitar nomes até que o nome 'sair' seja digitado. Ao final, o programa deve imprimir todos os nomes digitados, cada um em uma linha.
+
+def coletar_nomes():
+    nomes = [] 
+
+    while True:
+        nome = input("Digite um nome (ou 'sair' para terminar): ")
+        if nome == 'sair':
+            break  
+        nomes.append(nome)  
+
+    for nome in nomes:
+        print(nome)
+
+coletar_nomes()
+
+Execução: https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/Fun%C3%A7%C3%A3o%20-%20nomes-sair%20-%2011.09.png
