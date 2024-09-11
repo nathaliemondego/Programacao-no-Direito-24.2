@@ -1,0 +1,44 @@
+Aula 11.09
+print ('aula')
+print("11", "09", "2024", sep="/")
+
+print ("Olá", "Python", end="!\n")
+
+print ("Texto maior com\nmais de uma linha")
+
+# Saída: nome; sobrenome; email (útil em CSVs)
+print("Nathalie", "Mondego", "paesnathalie@gmail.com", sep="; ")
+
+print("Loading", end=" ")
+print("[OK]") # Saída: Loading [OK]
+
+nome = input("Nathalie")
+print("Olá", nome)
+
+# Captura uma linha de entrada e a converte em uma lista de strings
+
+itens = input("Digite itens separados por vírgula: ")
+print ('como uma frase', itens)
+lista_de_itens = itens.split(',')
+print("Itens:", lista_de_itens)
+
+# Captura uma linha de entrada e a converte em uma lista de strings
+itens = input("Digite itens separados por vírgula: ").split(',')
+print("Itens:", itens)
+
+idade = int(input("Digite sua idade: "))
+print("Daqui a cinco anos, você terá", idade + 5, "anos")
+
+# Convertendo a entrada para float
+altura = float(input("Digite sua altura em metros: "))
+print("Sua altura é", altura, "metros.")
+
+print("Digite números para adicionar à lista (digite 'done' para terminar):")
+numeros = []
+while True:
+entrada = input()
+if entrada.lower() == 'done':
+break
+else:
+numeros.append(int(entrada))
+print("Números coletados:", numeros)
