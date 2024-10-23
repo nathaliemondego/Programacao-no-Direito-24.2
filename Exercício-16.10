@@ -1,0 +1,60 @@
+1) Escreva uma função que pede que o usuário informe seu nome pelo teclado e grave essa informação em um arquivo de texto
+
+f = open('nome_pessoa.txt', 'w')
+f.write('Informe seu nome pelo teclado')
+
+f.close()
+
+https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/16.10-f%20%3D%20open%20w.png
+
+2) Escreva uma função que peça ao usuário o nome de um arquivo de texto e imprima o seu conteúdo. Obs.: considere que o usuário sempre informa o nome de um arquivo que existente.
+
+f = open('nome_arquivo.txt', 'w')
+f.write('informe o nome do arquivo em questão.')
+f.close()
+
+
+nome = input('Informe o nome do arquivo: ')
+
+
+f = open(nome, 'r')
+print(f.read())
+
+f.close()
+
+https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/16.10%20-%20nome%20%3D%20input.png
+
+3) Escreva uma função que leia o conteúdo do arquivo de exemplo e o escreva em um novo arquivo.
+
+f = open('exemplo.txt', 'w+')
+
+f.write('conteudo\nnovos textos')
+
+f.seek(0)
+conteudo = f.read()
+
+
+f.close()
+
+https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/16.10-f.seek.png
+
+4) Escreva uma função que peça ao usuário um número, percorra o arquivo de exemplo, e escreva na tela o nome correspondente ao número.
+
+
+f = open('numero.txt', 'w')
+f.write('informe um numero.')
+
+f.close() 
+
+numero = input('Informe um número: ') 
+
+f = open('numero.txt', 'r+')  
+f.write(numero) 
+
+f.seek(0) 
+
+print(f.read()) 
+
+f.close()
+
+https://github.com/nathaliemondego/Programacao-no-Direito-24.2/blob/main/16.10-informe%20numero.png
